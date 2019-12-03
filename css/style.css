@@ -400,3 +400,116 @@ input[type="radio"].visually-hidden {
       display: flex;
       justify-content: space-between;
 }
+
+a.catalog-navigation-list__item-clients {
+    display: block;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #982324;
+    text-transform: uppercase;
+}
+
+a.catalog-navigation-list__item-brands {
+    display: block;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #982324;
+    text-transform: uppercase;
+}
+
+
+
+a.catalog-navigation-list__item-service {
+    width: 200px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #982324;
+    text-transform: uppercase;
+}
+
+a.catalog-navigation-list__item-service:hover {
+    color: #000000;
+}
+
+a.catalog-navigation-list__item-contacts {
+    display: block;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #982324;
+    text-transform: uppercase;
+}
+
+a.catalog-navigation-list__item-contacts:hover {
+    color: #000000;
+}
+
+a.catalog-navigation-list__item-clients:hover {
+    color: #000000;
+}
+
+a.catalog-navigation-list__item-brands:hover {
+    color: #000000;
+}
+
+a.header__catalog-navigation-list {
+    display: block;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #982324;
+    text-transform: uppercase;
+}
+
+a.header__catalog-navigation-list:hover {
+    color: #000000;
+}
+
+a.catalog-navigation__prodacts-items {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 130%;
+/* or 19px */
+    color: #000000;
+    display: block;
+    padding: 20px 10px 10px 0px;
+    width: 190px;
+}
+
+a.catalog-navigation__prodacts-items:hover {
+    color: #982324;
+    text-decoration: underline;
+}
+
+section.delete-it {
+    height: 400px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    z-index: -1;
+}
