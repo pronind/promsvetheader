@@ -28,6 +28,7 @@ ul {
       list-style: none;
       padding: 0;
       margin: 0;
+      
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -506,10 +507,89 @@ a.catalog-navigation__prodacts-items:hover {
 }
 
 section.delete-it {
-    height: 400px;
-    background-color: aliceblue;
+    height: 440px;
+    background-color: #FFBA0A;
     position: absolute;
     top: 300px;
     width: 100%;
     z-index: -1;
+}
+
+li.first-item {
+    position: relative;
+    z-index: 2;
+}
+
+.advantages-list__item1::before {
+  content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/icon-features-box.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 1;
+    
+}
+
+.advantages-list__item2::before {
+  content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/icon-features-talk.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 1;
+    
+}
+
+.advantages-list__item3::before {
+  content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/icon-features-car.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 1;
+    
+}
+.advantages-list__item4::before {
+  content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/icon-features-service.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 1;
+    
+}
+
+.advantages-list__item {
+    position: relative;
+  padding-left: 80px;
+    display:block;
+    min-height:80px;
+    width: 200px;
+    font-weight: 300;
+font-size: 14px;
+line-height: 130%;
+
+
+color: #000000;
+}
+
+ul.header__advantages-list {
+    display: flex;
+    background-color: #FAFAFA;
 }
