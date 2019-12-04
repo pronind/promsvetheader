@@ -28,6 +28,7 @@ ul {
       list-style: none;
       padding: 0;
       margin: 0;
+      
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -51,7 +52,7 @@ input[type="radio"].visually-hidden {
 }
 
 .header__container {
-      width: 1440px;
+      width: 1360px;
       /* box-sizing: border-box; */
       padding: 0;
       margin: 0 auto;
@@ -392,11 +393,209 @@ input[type="radio"].visually-hidden {
 }
 
 .header__catalog-navigation {
-      width: 1440px;
+      width: 1360px;
       box-sizing: border-box;
       padding-top: 60px;
       padding-right: 80px;
       padding-bottom: 60px;
       display: flex;
       justify-content: space-between;
+}
+
+a.catalog-navigation-list__item-clients {
+    display: block;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #982324;
+    text-transform: uppercase;
+}
+
+a.catalog-navigation-list__item-brands {
+    display: block;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #982324;
+    text-transform: uppercase;
+}
+
+
+
+a.catalog-navigation-list__item-service {
+    width: 200px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #982324;
+    text-transform: uppercase;
+}
+
+a.catalog-navigation-list__item-service:hover {
+    color: #000000;
+}
+
+a.catalog-navigation-list__item-contacts {
+    display: block;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #982324;
+    text-transform: uppercase;
+}
+
+a.catalog-navigation-list__item-contacts:hover {
+    color: #000000;
+}
+
+a.catalog-navigation-list__item-clients:hover {
+    color: #000000;
+}
+
+a.catalog-navigation-list__item-brands:hover {
+    color: #000000;
+}
+
+a.header__catalog-navigation-list {
+    display: block;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #982324;
+    text-transform: uppercase;
+}
+
+a.header__catalog-navigation-list:hover {
+    color: #000000;
+}
+
+a.catalog-navigation__prodacts-items {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 130%;
+/* or 19px */
+    color: #000000;
+    display: block;
+    padding: 20px 10px 10px 0px;
+    width: 190px;
+}
+
+a.catalog-navigation__prodacts-items:hover {
+    color: #982324;
+    text-decoration: underline;
+}
+
+section.delete-it {
+    height: 440px;
+    background-color: #FFBA0A;
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    z-index: -1;
+}
+
+li.first-item {
+    position: relative;
+    z-index: 2;
+}
+
+.advantages-list__item1::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/icon-features-box.svg);
+  background-repeat: no-repeat;
+  /* background-position: 50% 50%; */
+  opacity: 1;
+}
+
+.advantages-list__item2::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/icon-features-talk.svg);
+  background-repeat: no-repeat;
+  /* background-position: 50% 50%; */
+  opacity: 1;
+}
+
+.advantages-list__item3::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/icon-features-car.svg);
+  background-repeat: no-repeat;
+  /* background-position: 50% 50%; */
+  opacity: 1;
+}
+.advantages-list__item4::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/icon-features-service.svg);
+  background-repeat: no-repeat;
+  /* background-position: 50% 50%; */
+  opacity: 1;
+}
+.advantages-list__item4{
+  margin-right: 40px;
+}
+
+.advantages-list__item {
+    position: relative;
+    padding-left: 80px;
+    display:block;
+    min-height: 70px;
+    width: 190px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    margin-left: 40px;
+}
+
+ul.header__advantages-list {
+    display: flex;
+    background-color: #FAFAFA;
+    height: 158px;
+    align-items: center;
+    margin-left: 360px;
+}
+
+.wrapper {
+    width: 1360px;
+    margin: 0 auto;
 }
