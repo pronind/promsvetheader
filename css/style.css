@@ -75,8 +75,7 @@ input[type="radio"].visually-hidden {
       box-sizing: border-box;
       width: 360px;
       padding: 0 80px;
-      padding-top: 60px;
-
+      padding-top: 68px;
 }
 
 .header__logo-img {
@@ -131,17 +130,15 @@ input[type="radio"].visually-hidden {
       margin: 0;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      /* justify-content: space-between; */
 }
 
 .user-navigation__wrapper-top {
       width: 800px;
-      margin: 0;
+      margin: 0 0 20px 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
-
-
 }
 
 .user-navigation__wrapper-bottom {
@@ -149,7 +146,7 @@ input[type="radio"].visually-hidden {
       padding: 0;
       margin: 0;
       display: flex;
-      justify-content: space-between;
+      /* justify-content: space-between; */
 }
 
 .user-navigation__service {
@@ -162,7 +159,7 @@ input[type="radio"].visually-hidden {
 }
 
 .user-navigation__service-item {
-      margin-right: 25px;
+      margin-right: 33px;
 }
 
 .user-navigation__service-link {
@@ -183,7 +180,7 @@ input[type="radio"].visually-hidden {
       min-width: 180px;
       box-sizing: border-box;
       padding: 0;
-      margin: 0;
+      margin: 0 0px 0 30px;
       display: flex;
       justify-content: space-between;
 }
@@ -194,6 +191,7 @@ input[type="radio"].visually-hidden {
       display: flex;
       align-items: center;
       position: relative;
+      margin: 0 0px 0 5px;
 }
 
 .user-navigation__list-link:hover,
@@ -277,7 +275,7 @@ input[type="radio"].visually-hidden {
 }
 
 .user-navigation__menu-checkin {
-      padding-left: 10px;
+      padding-left: 20px;
       position: relative;
 }
 
@@ -349,14 +347,14 @@ input[type="radio"].visually-hidden {
       padding: 0;
       margin: 0;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-end;
       align-items: flex-end;
 }
 
 .user-navigation__contacts-number {
       box-sizing: border-box;
       padding: 0;
-      margin: 0;
+      margin: 0 55px 0 0;
       font-family: Montserrat;
       font-size: 18px;
       color: #000000;
@@ -393,7 +391,7 @@ input[type="radio"].visually-hidden {
 .header__catalog-navigation {
       width: 1440px;
       box-sizing: border-box;
-      padding-top: 60px;
+      padding-top: 50px;
       padding-right: 80px;
       padding-bottom: 55px;
       display: flex;
@@ -501,7 +499,7 @@ input[type="radio"].visually-hidden {
 
 .catalog-navigation__prodacts-list {
       position: absolute;
-      padding-top: 30px;
+      padding-top: 35px;
       box-sizing: border-box;
       padding-right: 40px;
       padding-left: 40px;
@@ -552,6 +550,7 @@ input[type="radio"].visually-hidden {
       z-index: -20;
       display: flex;
       justify-content: center;
+      margin-top: 5px;
 }
 
 /* для слайдера */
@@ -610,7 +609,6 @@ input[type="radio"].visually-hidden {
       box-sizing: border-box;
       display: flex;
       justify-content: space-between;
-
 }
 
 .slider-assembly__figure-content {
@@ -668,13 +666,13 @@ input[type="radio"].visually-hidden {
       flex-direction: column;
       justify-content: flex-end;
       margin-right: auto;
-      margin-left: 80px;
+      margin-left: 90px;
 }
 
 .slider-assembly__figure-button {
       display: flex;
       justify-content: center;
-      margin-bottom: 13px;
+      margin-bottom: 15px;
       width: 230px;
       height: 52px;
       border-radius: 4px;
@@ -704,8 +702,8 @@ input[type="radio"].visually-hidden {
 
 .slider-assembly__figure-image {
       position: absolute;
-      top: -30px;
-      right: -20px;
+      top: -35px;
+      right: -30px;
       width: 663px;
       height: 501px;
       object-fit: contain;
@@ -731,7 +729,7 @@ input[type="radio"].visually-hidden {
 .advantages-list__item1::before {
       content: "";
       position: absolute;
-      top: 0px;
+      top: 10px;
       left: 0px;
       width: 80px;
       height: 80px;
@@ -744,8 +742,8 @@ input[type="radio"].visually-hidden {
 .advantages-list__item2::before {
       content: "";
       position: absolute;
-      top: 0px;
-      left: 0px;
+      top: 10px;
+      left: -11px;
       width: 80px;
       height: 80px;
       background-image: url(../img/icon-features-talk.svg);
@@ -757,7 +755,7 @@ input[type="radio"].visually-hidden {
 .advantages-list__item3::before {
       content: "";
       position: absolute;
-      top: 0px;
+      top: 14px;
       left: 0px;
       width: 80px;
       height: 80px;
@@ -770,7 +768,7 @@ input[type="radio"].visually-hidden {
 .advantages-list__item4::before {
       content: "";
       position: absolute;
-      top: 0px;
+      top: 10px;
       left: 0px;
       width: 80px;
       height: 80px;
@@ -786,7 +784,8 @@ input[type="radio"].visually-hidden {
 
 .advantages-list__item {
       position: relative;
-      padding-left: 80px;
+      padding-top: 6px;
+      padding-left: 68px;
       display: block;
       min-height: 70px;
       width: 180px;
